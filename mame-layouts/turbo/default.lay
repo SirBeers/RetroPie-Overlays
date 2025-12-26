@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<mamelayout version="2">
+
+    <element name="digit" defstate="10">
+        <led7seg>
+            <color red="1.0" green="0.3" blue="0.0" />
+        </led7seg>
+    </element>
+<!--
+    <element name="bezel_turbo">
+        <image file="turbo-ovl.png" />
+    </element>
+
+    <element name="speed" defstate="0">
+        <rect>
+            <bounds x="0" y="0" width="374" height="113" />
+            <color red="0.0" green="0.0" blue="0.0" />
+        </rect>
+        <rect>
+            <bounds x="17" y="9" width="339" height="96" />
+            <color red="0.0" green="0.1" blue="0.0" />
+        </rect>
+        <rect state="1">
+            <bounds x="17" y="9" width="26" height="96" />
+            <color red="0.0" green="1.0" blue="0.0" />
+        </rect>
+        <rect state="2">
+            <bounds x="17" y="9" width="61" height="96" />
+            <color red="0.0" green="1.0" blue="0.0" />
+        </rect>
+        <rect state="3">
+            <bounds x="17" y="9" width="96" height="96" />
+            <color red="0.0" green="1.0" blue="0.0" />
+        </rect>
+        <rect state="4">
+            <bounds x="17" y="9" width="130" height="96" />
+            <color red="0.0" green="1.0" blue="0.0" />
+        </rect>
+        <rect state="5">
+            <bounds x="17" y="9" width="165" height="96" />
+            <color red="0.0" green="1.0" blue="0.0" />
+        </rect>
+        <rect state="6">
+            <bounds x="17" y="9" width="200" height="96" />
+            <color red="0.0" green="1.0" blue="0.0" />
+        </rect>
+        <rect state="7">
+            <bounds x="17" y="9" width="235" height="96" />
+            <color red="0.0" green="1.0" blue="0.0" />
+        </rect>
+        <rect state="8">
+            <bounds x="17" y="9" width="270" height="96" />
+            <color red="0.0" green="1.0" blue="0.0" />
+        </rect>
+        <rect state="9">
+            <bounds x="17" y="9" width="304" height="96" />
+            <color red="0.0" green="1.0" blue="0.0" />
+        </rect>
+        <rect state="10">
+            <bounds x="17" y="9" width="339" height="96" />
+            <color red="0.0" green="1.0" blue="0.0" />
+        </rect>
+    </element>
+-->
+	<view name="Simple LEDs with Bezel">
+		<bounds left="0" right="1920" top="0" bottom="1080" />
+
+		<screen index="0">
+			<bounds left="568" top="35" right="1351" bottom="1044" />
+		</screen>
+<!--
+		<bezel element="bezel_turbo">
+			<bounds left="0" right="1920" top="0" bottom="1080" />
+		</bezel>
+		
+		
+		<bezel element="panel">
+			<bounds left="-59" top="0" right="0" bottom="248" />
+		</bezel>
+-->
+
+	<!-- ROW 1 -->
+	<bezel name="digit22" element="digit">
+		<bounds left="373" top="380" right="394" bottom="423" />
+	</bezel>
+
+	<bezel name="digit23" element="digit">
+		<bounds left="347" top="380" right="368" bottom="423" />
+	</bezel>
+
+	<bezel name="digit24" element="digit">
+		<bounds left="320" top="380" right="342" bottom="423" />
+	</bezel>
+
+	<bezel name="digit25" element="digit">
+    <bounds left="294" top="380" right="315" bottom="423" />
+	</bezel>
+
+	<bezel name="digit26" element="digit">
+		<bounds left="268" top="380" right="290" bottom="423" />
+	</bezel>
+
+
+	<!-- ROW 2 -->
+	<bezel name="digit17" element="digit">
+		<bounds left="373" top="440" right="394" bottom="483" />
+	</bezel>
+
+	<bezel name="digit18" element="digit">
+		<bounds left="347" top="440" right="368" bottom="483" />
+	</bezel>
+
+	<bezel name="digit19" element="digit">
+		<bounds left="320" top="440" right="342" bottom="483" />
+	</bezel>
+
+	<bezel name="digit20" element="digit">
+		<bounds left="294" top="440" right="315" bottom="483" />
+	</bezel>
+
+	<bezel name="digit21" element="digit">
+		<bounds left="268" top="440" right="290" bottom="483" />
+	</bezel>
+
+
+	<!-- ROW 3 -->
+	<bezel name="digit12" element="digit">
+		<bounds left="373" top="500" right="394" bottom="543" />
+	</bezel>
+
+	<bezel name="digit13" element="digit">
+		<bounds left="347" top="500" right="368" bottom="543" />
+	</bezel>
+
+	<bezel name="digit14" element="digit">
+		<bounds left="320" top="500" right="342" bottom="543" />
+	</bezel>
+
+	<bezel name="digit15" element="digit">
+		<bounds left="294" top="500" right="315" bottom="543" />
+	</bezel>
+
+	<bezel name="digit16" element="digit">
+		<bounds left="268" top="500" right="290" bottom="543" />
+	</bezel>
+
+
+	<!-- ROW 4 -->
+	<bezel name="digit7" element="digit">
+		<bounds left="373" top="561" right="394" bottom="604" />
+	</bezel>
+
+	<bezel name="digit8" element="digit">
+		<bounds left="347" top="561" right="368" bottom="604" />
+	</bezel>
+
+	<bezel name="digit9" element="digit">
+		<bounds left="320" top="561" right="342" bottom="604" />
+	</bezel>
+
+	<bezel name="digit10" element="digit">
+		<bounds left="294" top="561" right="315" bottom="604" />
+	</bezel>
+
+	<bezel name="digit11" element="digit">
+		<bounds left="268" top="561" right="290" bottom="604" />
+	</bezel>
+
+
+	<!-- ROW 5 -->
+	<bezel name="digit2" element="digit">
+		<bounds left="373" top="622" right="394" bottom="665" />
+	</bezel>
+
+	<bezel name="digit3" element="digit">
+		<bounds left="347" top="622" right="368" bottom="665" />
+	</bezel>
+
+	<bezel name="digit4" element="digit">
+		<bounds left="320" top="622" right="342" bottom="665" />
+	</bezel>
+
+	<bezel name="digit5" element="digit">
+		<bounds left="294" top="622" right="315" bottom="665" />
+	</bezel>
+
+	<bezel name="digit6" element="digit">
+		<bounds left="268" top="622" right="290" bottom="665" />
+	</bezel>
+
+
+	<!-- CURRENT SCORE -->
+	<bezel name="digit27" element="digit">
+		<bounds left="373" top="896" right="403" bottom="953" />
+	</bezel>
+
+	<bezel name="digit28" element="digit">
+		<bounds left="334" top="896" right="363" bottom="953" />
+	</bezel>
+
+	<bezel name="digit29" element="digit">
+		<bounds left="294" top="896" right="325" bottom="953" />
+	</bezel>
+
+	<bezel name="digit30" element="digit">
+		<bounds left="255" top="896" right="286" bottom="953" />
+	</bezel>
+
+	<bezel name="digit31" element="digit">
+		<bounds left="216" top="896" right="247" bottom="953" />
+	</bezel>
+
+<!--
+	<bezel name="speed" element="speed">
+		<bounds left="106" top="1023" right="293" bottom="1080" />
+	</bezel>
+-->
+	</view>
+</mamelayout>
